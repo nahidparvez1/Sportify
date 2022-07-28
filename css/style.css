@@ -104,8 +104,16 @@ body {
 
 .vs-parent {
     width: 984px;
-    height: 508px;
-    border: 1px solid;
+    margin: 0px 12px 12px;
+}
+
+.vs-up {
+    display: flex;
+}
+
+.vs-down {
+    display: flex;
+    margin-top: 12px;
 }
 
 .vs-card {
@@ -115,6 +123,7 @@ body {
     box-shadow: 0px 0px 5px lightslategray;
     text-align: center;
     padding: 1px;
+    margin: 0px 12px 12px;
 
 }
 
@@ -126,6 +135,10 @@ body {
     flex-direction: row;
     align-items: center;
     margin: 53px 30px 0px 30px;
+}
+
+.vs h3 {
+    margin-bottom: 20px;
 }
 
 .vs-card h3 {
