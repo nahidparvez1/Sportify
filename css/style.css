@@ -11,18 +11,12 @@ body {
     margin: 35px auto;
 }
 
-.banner-section {
-
-}
-
 .banner-div {
     height: 646px;
     background-color: black;
     border-radius: 30px;
     display: flex;
 }
-
-
 
 .banner-left {
     width: 531px;
@@ -282,6 +276,65 @@ footer a {
 
 .fa-brands:hover {
     color: #DD0000;
+}
+
+/* Tab View */
+
+@media screen and (min-width: 668px) and (max-width: 992px) {
+
+    .container {
+        width: 734px;
+        border: 1px solid;
+        margin: 50px auto;
+
+    }
+
+    .banner-div {
+        height: 398px;
+        
+    }
+
+    .banner-left {
+        width: 316px;
+        height: 276px;
+        margin: 61px 0px 61px 76px;
+    }
+
+    .banner-left h1 {
+        font-size: 40px;
+        color: white;
+        font-weight: 600;
+        line-height: 40px;
+       
+    
+    }
+    
+    .banner-left p {
+        width: 316px;
+        height: 48px;
+        font-size: 14px;
+        color: white;
+        margin-bottom: 70px;
+        margin-top: 20px;
+    }
+
+    .banner-right {
+        width: 323px;
+        height: 340px;
+        margin-top: 58px;
+        margin-right: 17px;
+    }
+    
+
+    
+}
+
+/* Mobile View */
+
+@media screen and (max-width: 667px) {
+    body {
+        background-color: maroon;
+    }
 }
 
 
