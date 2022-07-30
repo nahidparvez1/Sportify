@@ -135,16 +135,13 @@ body {
 
 .vs-parent {
     width: 984px;
-    margin: 0px 12px 12px;
-}
+    /* margin: 0px 12px 12px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+    margin-left: 24px;
 
-.vs-up {
-    display: flex;
-}
-
-.vs-down {
-    display: flex;
-    margin-top: 12px;
 }
 
 .vs-card {
@@ -154,9 +151,13 @@ body {
     box-shadow: 0px 0px 5px lightslategray;
     text-align: center;
     padding: 1px;
-    margin: 0px 12px 12px;
+    /* margin: 0px 12px 12px; */
 
 }
+/* 
+.lower-card {
+    margin-top: 12px;
+} */
 
 .vs {
     width: 252px;
