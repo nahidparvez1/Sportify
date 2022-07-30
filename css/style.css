@@ -88,7 +88,7 @@ body {
     display: flex;
 }
 
-.upcoming {
+.upcoming-div {
     width: 312px;
     height: 312px;
     border: 1px solid;
@@ -97,28 +97,15 @@ body {
     text-align: center;
 }
 
-.upcoming button:hover {
-    background-color: #DD0000;
-    transition: 0.4s ease-in-out;
-    cursor: pointer;
-    color: white;
-}
-
 .button-group {
     width: 252px;
     height: 252px;
-    margin: 30px;
-    
+    margin: 0px 30px 30px;   
 }
-.upcoming-btn {
-    width: 252px;
-    height: 64px;
-    border-radius: 10px;
-    background-color: #DD0000;
-    color: white;
-    font-size: 20px;
-    font-weight: 300;
-    border-style: none;
+
+.button-group a {
+    text-decoration: none;
+    color: black;
 }
 
 .upcoming-regular {
@@ -131,18 +118,27 @@ body {
     font-size: 20px;
     font-weight: 300;
     border-style: none;
+    transition: 0.4s ease-in-out;
 }
+
+.upcoming-regular:hover {
+    background-color: #DD0000;
+    color: white;
+    
+}
+
 
 .vs-parent {
     width: 984px;
-    /* margin: 0px 12px 12px; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 24px;
     row-gap: 24px;
     margin-left: 24px;
+    margin-bottom: 100px;
 
 }
+
 
 .vs-card {
     width: 312px;
@@ -151,13 +147,10 @@ body {
     box-shadow: 0px 0px 5px lightslategray;
     text-align: center;
     padding: 1px;
-    /* margin: 0px 12px 12px; */
+
 
 }
-/* 
-.lower-card {
-    margin-top: 12px;
-} */
+
 
 .vs {
     width: 252px;
@@ -183,6 +176,68 @@ body {
     margin-top: 10px;
     font-size: 16px;
 }
+
+/* blog page */
+
+.blog-parent {
+    width: 984px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+    margin-left: 24px;
+    margin-bottom: 100px;
+
+}
+
+.blog-card {
+    width: 312px;
+
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px lightslategray;
+    padding: 1px;
+}
+
+.blog-btn {
+    margin-top: 20px;
+    width: 100px;
+    height: 32px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: 1px solid black;
+    background-color: transparent;
+
+}
+
+.blog-img{
+    height: 175px;
+}
+
+.blog-img img {
+    width: 100%;
+}
+
+.blog-info {
+    margin: 20px;
+}
+
+.blog-info p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.clock-chat {
+    width: 143px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* footer */
 
 footer {
     width: 100%;
@@ -228,3 +283,5 @@ footer a {
 .fa-brands:hover {
     color: #DD0000;
 }
+
+
