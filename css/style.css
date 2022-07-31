@@ -230,6 +230,32 @@ body {
 
 }
 
+/* View All button */
+
+
+
+.view-btn {
+    display: none;
+    width: 131px;
+    height: 47px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    border-style: none;
+    transition: 0.4s ease-in-out;
+    border: 1px solid;
+}
+
+.view-btn:hover {
+    background-color: #DD0000;
+    color: white;
+    
+}
+
+
 /* footer */
 
 footer {
@@ -372,6 +398,11 @@ footer a {
         box-shadow: 0px 0px 5px lightslategrey;
         padding: 1px;
         margin-left: -22px;
+    }
+
+    .view-btn {
+        display: block;
+        margin: 0px auto;
     }
 
     footer {
