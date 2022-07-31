@@ -6,6 +6,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* banner section */
+
 .container {
     width: 1321px;
     margin: 35px auto;
@@ -73,6 +75,8 @@ body {
 .banner-right img {
     width: 100%;
 }
+
+/* Match vs section */
 
 .vs-section {
     margin-top: 130px;
@@ -303,7 +307,7 @@ footer a {
     color: #DD0000;
 }
 
-/* Tab View */
+/* Tab View - Responsive */
 
 @media screen and (min-width: 668px) and (max-width: 992px) {
 
@@ -437,7 +441,7 @@ footer a {
     
 }
 
-/* Mobile View */
+/* Mobile View - Responsive */
 
 @media screen and (max-width: 667px) {
    
