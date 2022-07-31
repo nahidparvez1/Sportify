@@ -440,9 +440,115 @@ footer a {
 /* Mobile View */
 
 @media screen and (max-width: 667px) {
-    body {
-        background-color: maroon;
+   
+    .container {
+        width: 334px;
+        margin: 44px auto;
     }
-}
+
+    .banner-div {
+        height: 492px;
+        border-radius: 10px;
+        display: block;
+    }
+    
+    .banner-left {
+        padding-top: 20px;
+        width: 258px;
+        height: 178px;
+        margin: 38px 38px 21px;
+    }
+
+    .banner-right {
+        width: 233px;
+        height: 245px;
+        margin-top: 40px;
+        margin-right: 79px;
+        justify-content: center;
+        
+    }
+
+    .banner-left h1 {
+        font-size: 22px;
+        color: white;
+        font-weight: 900;
+        line-height: 20px;
+        text-align: center;
+       
+    
+    }
+    
+    .banner-left p {
+        font-size: 14px;
+        color: white;
+        margin-bottom: 5px;
+        line-height: 20px;
+        text-align: center;
+
+    }
+    
+    .banner-left button {
+        width: 161px;
+        height: 40px;
+        background-color: white;
+        border-radius: 5px;
+        border-style: none;
+        color: black;
+        transition: 0.4s ease-in-out;
+        /* margin-top: -20px; */
+        text-align: center;
+        margin-left: 50px;
+
+    }
+    
+   .banner-right {
+       margin: 48px auto;
+   }
+
+   .vs-div {
+    display: block;
+    }
+
+    .upcoming-div {
+        background-color: transparent;
+        margin-top: -100px;
+        margin-left: 10px;
+        border: none;
+    }
+
+    .upcoming-regular {
+        border: 1px solid;
+    }
 
 
+    .blog-parent {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .blog-card {
+        width: 335px;
+        height: 389px;
+        margin-left: -25px;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    footer h3 {
+        margin: 24px auto;
+    }
+
+    footer hr {
+        margin-top: 24px;
+        width: 335px;
+    }
+
+    .contact-ul li {
+        display: block;
+        margin-top: 10px;
+    }
+
+
+    }
